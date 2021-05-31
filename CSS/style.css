@@ -1,0 +1,25 @@
+.container{
+    margin-top: 100px;
+}
+
+.text-muted{
+    padding-top: 20px;
+}
+
+.img-responsive{
+    max-width: 75%;
+}
+
+.show{
+    margin-top: 26px;
+}
+
+.counter{
+    margin-top: 50px;
+    font-size: 150px;
+    font-weight: 100;
+}
+
+.logout{
+    margin-top: 20%;
+}
