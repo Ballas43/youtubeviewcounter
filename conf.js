@@ -4,7 +4,7 @@ const client_id = '1089273202974-qt0j2dol1bmtq1ul4n2rk7729dp0ivbb.apps.googleuse
 
 module.exports = {
   // The secret for the encryption of the jsonwebtoken
-  JWTsecret: 'jdsajfdsje363873hr4387287652382dh32udy263e2tqidjxhFHGJWUR7ETFITEYLI4EUOFYTKU',
+  JWTsecret: '<your jwt secret>',
   baseURL: baseURL,
   port: port,
   // The credentials and information for OAuth2
@@ -14,7 +14,7 @@ module.exports = {
     auth_uri: "https://accounts.google.com/o/oauth2/auth",
     token_uri: "https://oauth2.googleapis.com/token",
     auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
-    client_secret: "GeJv8feG3NNdHLIjQf9rlb1c",
+    client_secret: "<your secret>",
     redirect_uris: [
       `${baseURL}/callback`
     ],
