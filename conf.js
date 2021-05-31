@@ -1,6 +1,6 @@
 const port = 8080;
 const baseURL = `http://localhost:${port}`;
-const client_id = '1089273202974-qt0j2dol1bmtq1ul4n2rk7729dp0ivbb.apps.googleusercontent.com'
+const client_id = '<your client id>'
 
 module.exports = {
   // The secret for the encryption of the jsonwebtoken
