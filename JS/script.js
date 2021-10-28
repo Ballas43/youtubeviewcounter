@@ -19,7 +19,7 @@ setInterval(() => {
 
 function getView(){
     var kue = getCookie('id')
-    fetch(`https://www.googleapis.com/youtube/v3/videos?part=liveStreamingDetails&id=${kue}&key=AIzaSyD1hV_dl5VGeCzqd83nOKYmVvaln4tb8TU`).then(res => res.json()).then((out) => {
+    fetch(`https://www.googleapis.com/youtube/v3/videos?part=liveStreamingDetails&id=${kue}&key=<your google auth key>`).then(res => res.json()).then((out) => {
         var viewer = out.items[0].liveStreamingDetails.concurrentViewers
         if (viewer > num){
             num = viewer
