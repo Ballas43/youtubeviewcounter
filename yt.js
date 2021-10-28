@@ -12,7 +12,7 @@ const web = express();
 const port = process.env.PORT || CONF.port
 
 web.set('view engine', 'ejs')
-web.set('trust proxy', '192.168.100.63');
+web.set('trust proxy', '<insert your ip address>');
 web.use(express.json())
 web.use(cookieParser())
 
